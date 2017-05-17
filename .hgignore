@@ -1,0 +1,4 @@
+syntax: glob
+obj/
+.vs/
+bin/Debug/NetworkResourceChecker.pdb
