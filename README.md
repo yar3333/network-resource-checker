@@ -1,3 +1,4 @@
-Network Resource Checker for Windows
+Network Resource Checker
+========================
 
-GUI utility to say what resource is available by host and port.
+GUI utility for Windows to check what resource is available by host and port.
