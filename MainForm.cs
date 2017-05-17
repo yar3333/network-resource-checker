@@ -8,7 +8,7 @@ namespace NetworkResourceChecker
 {
 	public partial class MainForm : Form
 	{
-		const int CHECK_PERIOD_SECONDS = 60*60;
+		const int CHECK_PERIOD_SECONDS = 30;
 
 		readonly KnownPort[] knownPorts =
 		{
