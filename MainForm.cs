@@ -31,7 +31,11 @@ namespace NetworkResourceChecker
 			cbPort.ValueMember = "port";
 
 			if (!string.IsNullOrEmpty(getProp<string>("host"))) tbHost.Text = getProp<string>("host");
-			cbPort.Text = getProp<int>("port").ToString();
+			cbPort.SelectedValue = getProp<int>("port");
+			if (cbPort.SelectedValue == null)
+			{
+				cbPort.Text = getProp<int>("port").ToString();	
+			}
 		}
 
 		private void MainForm_Resize(object sender, EventArgs e)
